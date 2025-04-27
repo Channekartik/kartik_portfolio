@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { services } from '../constants';
+import { services } from '../constants.js';
 import StarBorder from './Components/Contact.jsx/StarBorder/StarBorder.jsx';
 import Footer from './Footer';
 

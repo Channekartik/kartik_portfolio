@@ -13,9 +13,10 @@ const Footer = () => {
 				<p className='text-white text-center w-full sm:w-auto font-light'>© {year} Kartik. All rights reserved.</p>
 				<div className='text-white flex justify-around sm:w-[250px] w-full'>
 					
-					<a href="channekartikg2003@gmail.com" className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
+				<a href="mailto:channekartikg2003@gmail.com" className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
 						<FiMail className='text-xl' />
 					</a>
+
 					<a href="https://www.linkedin.com/in/kartik-channe-419b8a255/" target='_blank' className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
 						<AiFillLinkedin className='text-xl' />
 					</a>

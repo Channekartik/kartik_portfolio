@@ -3,7 +3,6 @@ import React from "react";
 import vpn from '../assets/vpn.png'
 import copeople from '../assets/copeople.png'
 import Footer from './Footer'
-import StarBorder from "./Components/Contact.jsx/StarBorder/StarBorder.jsx";
 const ProjectCard = ({ image, title, description, git, technologies }) => {
 
     return (
@@ -31,17 +30,7 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
                         </p>
                     ))}
                 </div>
-                <StarBorder
-          as="a"
-          href={git}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block text-red-300 text-xs sm:text-sm rounded-lg p-2 hover:text-green-400 shadow transition-all duration-300"
-          color="cyan"
-          speed="5s"
-        >
-          GitHub
-        </StarBorder>
+                <a href={git} className="text-red-300 border border-gray-200 rounded-lg shadow p-1 sm:p-2 lg:p-3 hover:text-green-500 duration-300">GitHub</a>
             </div>
         </div>
     );
@@ -50,7 +39,7 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
 const Projects = () => {
     return (
         <div className="bg-black">
-            <div className="flex flex-wrap gap-10 justify-center items-center m-9 p-12">
+            <div className="flex flex-wrap gap-10 justify-center items-center m-12 p-12">
                 {project.map((item, index) => (
                     <ProjectCard
                         key={index}
