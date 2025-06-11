@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/kartik_portfolio/static/css/main.90616663.css",
+    "main.js": "/kartik_portfolio/static/js/main.5034ad44.js",
+    "static/js/592.431d6fe7.chunk.js": "/kartik_portfolio/static/js/592.431d6fe7.chunk.js",
+    "static/media/vpn.png": "/kartik_portfolio/static/media/vpn.e05f7daf7b2aada9bc3d.png",
+    "static/media/copeople.png": "/kartik_portfolio/static/media/copeople.871571148ed76d697f2f.png",
+    "index.html": "/kartik_portfolio/index.html",
+    "main.90616663.css.map": "/kartik_portfolio/static/css/main.90616663.css.map",
+    "main.5034ad44.js.map": "/kartik_portfolio/static/js/main.5034ad44.js.map",
+    "592.431d6fe7.chunk.js.map": "/kartik_portfolio/static/js/592.431d6fe7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90616663.css",
+    "static/js/main.5034ad44.js"
+  ]
+}
